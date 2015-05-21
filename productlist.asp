@@ -15,7 +15,7 @@
 </TR>
 <% dim cn, rs
 set cn = server.createobject("ADODB.Connection")
-cn.open "provider=microsoft.jet.oledb.4.0; data source=d:\mageeco\1415\fd1a\adam\DesireForAttire\products.mdb;"
+Cnn.open "provider=microsoft.jet.oledb.4.0; data source=products.mdb;"
 set rs=cn.execute("Select * From Products")
 DO until rs.EOF
 	response.write "<TR>"
