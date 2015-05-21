@@ -4,6 +4,36 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Desire For Attire</title>
 <link href="css/main.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript1.1">
+<!--
+var slideimages=new Array()
+var slidelinks=new Array()
+function slideshowimages()
+{
+	for (i=0;i<slideshowimages.arguments.length;i++)
+	{
+		slideimages[i]=new Image()
+		slideimages[i].src=slideshowimages.arguments[i]
+	}
+}
+
+function slideshowlinks()
+{
+	for (i=0;i<slideshowlinks.arguments.length;i++)
+	slidelinks[i]=slideshowlinks.arguments[i]
+}
+
+function gotoshow()
+{
+	if (!window.winslide||winslide.closed)
+	winslide=window.open(slidelinks[whichlink])
+	else
+	winslide.location=slidelinks[whichlink]
+	winslide.focus()
+}
+
+//-->
+</script>
 </head>
 
 <body>
@@ -32,7 +62,33 @@
 	<div id="instagram"><a href="http://www.instagram.com/DesireForAttire"><img src="images/64-instagram.png" alt="Instagram" /></a></div>
 	<div id="home-products">
 		<br><br><br>
-		<center><div class="slideshow"><img src="images/slideshow.png" /></div></center>
+		<center><div class="slideshow">
+		<a href="javascript:gotoshow()"><img src="food1.jpg" name="slide" border=0 width=300 height=375></a>
+		<script>
+		<!--
+		slideshowimages("images/clothes/Hoodedswagga.jpg","images/clothes/Jimmieswag.jpg","images/footwear/Rodeoswag.jpg","images/footwear/Swagdals.jpg","images/accessories/Swagback.jpg")
+		slideshowlinks("clothes/clothes-1.html","clothes/clothes-4.html","footwear/footwear-1.html","footwear/footwear-3.html","accessories/accessories-2.html")
+		
+		var slideshowspeed=2000
+		
+		var whichlink=0
+		var whichimage=0
+		function slideit()
+		{
+			if (!document.images)
+			return
+			document.images.slide.src=slideimages[whichimage].src
+			whichlink=whichimage
+			if (whichimage<slideimages.length-1)
+			whichimage++
+			else
+			whichimage=0
+			setTimeout("slideit()",slideshowspeed)
+		}
+		slideit()
+		//-->
+		</script>
+		</div></center>
 		<br>
 		Words that might be about something, I don't know, I'm not writing it. <br>
 		Words that might be about something, I don't know, I'm not writing it. <br>
