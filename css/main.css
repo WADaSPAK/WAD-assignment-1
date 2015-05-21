@@ -1,0 +1,241 @@
+@charset "utf-8";
+/* CSS Document */
+
+a, img {
+    border:none;
+}
+
+a:link {color:#000000; text-decoration:none;}
+a:visited {color:#000000; text-decoration:none;}
+a:hover {color:#000000; text-decoration:underline;}
+a:active {color:#000000; text-decoration:underline;}
+
+p
+{
+	font-size:14px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+.blockCenter
+{
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#container
+{
+	position: relative;
+}
+
+#logo
+{
+	position: absolute;
+	left: 1px;
+	top: 10px;
+	height: 150px;
+	width: 300px;
+}
+
+#banner
+{
+	position: absolute;
+	left: 301px;
+	top: 35px;
+	height: 75px;
+	width: 599px;
+}
+
+#navigation
+{
+	position: absolute;
+	left: 301px;
+	top: 135px;
+	height: 20px;
+	width: 599px;
+	text-indent: 5px;
+	font-size:21px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+#login
+{
+	position: absolute;
+	right: 1px;
+	top: 15px;
+	height: 102px;
+	width: 199px;
+	text-indent: 5px;
+	font-size:20px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+#basket
+{
+	position: absolute;
+	right: 1px;
+	top: 112px;
+	height: 48px;
+	width: 199px;
+}
+
+#facebook
+{
+	position: absolute;
+	left: 1px;
+	top: 200px;
+	height: 64px;
+	width: 64px;
+}
+
+#twitter
+{
+	position: absolute;
+	left: 1px;
+	top: 300px;
+	height: 64px;
+	width: 64px;
+}
+#instagram
+{
+	position: absolute;
+	left: 1px;
+	top: 400px;
+	height: 64px;
+	width: 64px;
+}
+
+#home-products
+{
+	position: absolute;
+	left: 101px;
+	top: 170px;
+	height: 650px;
+	width: 500px;
+	overflow: auto;
+	font-size: 17px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+#home-promotions
+{
+	position: absolute;
+	left: 601px;
+	top: 170px;
+	height: 650px;
+	width: 500px;
+	overflow: auto;
+	font-size: 17px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+#content
+{
+	position: absolute;
+	left: 101px;
+	top: 170px;
+	height: 700px;
+	width: 1000px;
+	overflow: auto;
+	font-size: 17px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+#product-categories 
+{
+    position: absolute;
+	left: 301px;
+	top: 300px;
+}
+
+#product-description
+{
+	position: absolute;
+	left: 500px;
+	top: 200px;
+	height: 340px;
+	width: 600px;
+	font-size:17px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+#product-details
+{
+	position: absolute;
+	left: 150px;
+	top: 550px;
+	height: 360px;
+	width: 950px;
+	font-size:17px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+.slideshow
+{
+	overflow:auto;
+    height: 350px;
+    width: 350px;
+}
+
+.box1
+{
+	overflow:auto;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    margin:10px;
+}
+
+.box 
+{
+	overflow:auto;
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    margin:10px;
+}
+
+.boxbig
+{
+	overflow:auto;
+    display: inline-block;
+    height: 340px;
+    width: 340px;
+    margin:10px;
+}
+
+#addtobasket
+{
+	position: absolute;
+	left: 25px;
+	top: 230px;
+	height: 48px;
+	width: 199px;
+}
+
+table {
+    width:80%;
+}
+table, th, td {
+    border: 0px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th	{
+    background-color: #86ABC8;
+    color: white;
+}
+
+table02
+{
+	border: 0px;
+}
