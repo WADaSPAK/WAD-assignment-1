@@ -16,6 +16,11 @@ p
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 
+body
+{
+	background-color: #FFFFFF;
+}
+
 .blockCenter
 {
 	width: 1100px;
