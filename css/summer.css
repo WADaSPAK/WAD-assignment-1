@@ -13,12 +13,12 @@ a:active {color:#000000; text-decoration:underline;}
 p
 {
 	font-size:14px;
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 body
 {
-	background-color: #FFFFFF;
+	background-color: #f1c40f;
 }
 
 .blockCenter
@@ -60,7 +60,7 @@ body
 	width: 599px;
 	text-indent: 5px;
 	font-size:21px;
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 #login
@@ -72,7 +72,7 @@ body
 	width: 199px;
 	text-indent: 5px;
 	font-size:20px;
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 #basket
@@ -155,7 +155,7 @@ width: 120px;
 	width: 500px;
 	overflow: auto;
 	font-size: 17px;
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 #home-promotions
@@ -167,7 +167,7 @@ width: 120px;
 	width: 500px;
 	overflow: auto;
 	font-size: 17px;
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 #content
@@ -179,7 +179,7 @@ width: 120px;
 	width: 1000px;
 	overflow: auto;
 	font-size: 17px;
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 #product-categories 
@@ -197,7 +197,7 @@ width: 120px;
 	height: 340px;
 	width: 600px;
 	font-size:17px;
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 #product-details
@@ -208,7 +208,7 @@ width: 120px;
 	height: 360px;
 	width: 950px;
 	font-size:17px;
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 .slideshow

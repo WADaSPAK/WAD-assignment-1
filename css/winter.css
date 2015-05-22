@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
+body {
+	background:#6699cc;
+}
+
 a, img {
     border:none;
 }
@@ -13,12 +17,7 @@ a:active {color:#000000; text-decoration:underline;}
 p
 {
 	font-size:14px;
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-}
-
-body
-{
-	background-color: #FFFFFF;
+	font-family: "Calibri", Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
 }
 
 .blockCenter
@@ -60,7 +59,7 @@ body
 	width: 599px;
 	text-indent: 5px;
 	font-size:21px;
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-family: "Calibri", Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
 }
 
 #login
@@ -72,7 +71,7 @@ body
 	width: 199px;
 	text-indent: 5px;
 	font-size:20px;
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-family: "Calibri", Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
 }
 
 #basket
@@ -109,7 +108,6 @@ body
 	height: 64px;
 	width: 64px;
 }
-
 #default
 {
 	position: absolute;
@@ -149,13 +147,13 @@ width: 120px;
 #home-products
 {
 	position: absolute;
-	left: 101px;
+	left: 103px;
 	top: 170px;
 	height: 650px;
 	width: 500px;
 	overflow: auto;
 	font-size: 17px;
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-family: "Calibri", Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
 }
 
 #home-promotions
@@ -167,7 +165,7 @@ width: 120px;
 	width: 500px;
 	overflow: auto;
 	font-size: 17px;
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-family: "Calibri", Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
 }
 
 #content
@@ -179,7 +177,7 @@ width: 120px;
 	width: 1000px;
 	overflow: auto;
 	font-size: 17px;
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-family: "Calibri", Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
 }
 
 #product-categories 
@@ -197,7 +195,7 @@ width: 120px;
 	height: 340px;
 	width: 600px;
 	font-size:17px;
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-family: "Calibri", Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
 }
 
 #product-details
@@ -208,13 +206,13 @@ width: 120px;
 	height: 360px;
 	width: 950px;
 	font-size:17px;
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-family: "Calibri", Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
 }
 
 .slideshow
 {
 	overflow:auto;
-    height: 400px;
+    height: 350px;
     width: 350px;
 }
 
